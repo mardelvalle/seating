@@ -20,3 +20,4 @@ There are three areas which I would like to improve:
 The following is the logic which would be implemented for the number of seats per row based on the numbers of letters in a row:
 If the row has only letters a-f then two columns would be created of seats for any odd number of seats, the extra seat will be on the left. if more than 6 seats are present a middle row would be created (with the side rows being limited to three seats and the center being able to go up to five).
 3. If else = The use of if else here is not best practices for React. Ideally this would be replaced with having two components. Other features could have been added to the if else (such as larger seats for first class) using very similar code however that would not be ideal and not the best use of React.
+# seating
